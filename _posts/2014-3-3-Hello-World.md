@@ -8,6 +8,6 @@ published: true
 
 Pandas es un librería de python que se usa para el analisis de datos.
 
-![_config.yml]({{ site.baseurl }}/images/1200px-Pandas_logo.svg_.png)
+![_config.yml]({{ site.baseurl }}/images/1200px-Pandas_logo.svg_ "Pandas")
 
 ## ¿Qué podemos hacer con Pandas?
