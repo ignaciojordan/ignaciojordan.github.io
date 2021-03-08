@@ -8,6 +8,6 @@ published: true
 
 Pandas es un librería de python que se usa para el analisis de datos.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/1200px-Pandas_logo.svg_.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+## ¿Qué podemos hacer con Pandas?
