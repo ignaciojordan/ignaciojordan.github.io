@@ -2,14 +2,12 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-Some information about you!
+Hola mi nombre es Ignacio Jordan y me interesa mucho el mundo de la ciencia de datos. Por eso cree este post para aquellos que quieran iniciarse en Data Science.
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[ignaciobjordan@gmail.com](mailto:ignaciobjordan@gmail.com)
