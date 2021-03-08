@@ -1,9 +1,12 @@
 ---
 layout: post
-title: You're up and running!
+title: Pandas
+published: true
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+## ¿Qué es Pandas?
+
+Pandas es un librería de python que se usa para el analisis de datos.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
