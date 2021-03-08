@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Data Science
+name: Ignacio Jordan
 
 # Short bio or description (displayed in the header)
 description: Pandas
@@ -18,12 +18,12 @@ avatar: https://avatars.githubusercontent.com/u/29841920?s=460&u=dcb18150e92ffe9
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:
+  email: ignaciobjordan@gmail.com
   facebook:
   flickr:
   github: barryclark/jekyll-now
   instagram:
-  linkedin:
+  linkedin: https://www.linkedin.com/in/ibjordan/
   pinterest:
   rss: # just type anything here for a working RSS icon
   twitter: jekyllrb
