@@ -17,7 +17,8 @@ var ValidPassword = $('#password').val() === '4252'; // Password validate
             var settings = {
                 "url": "https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook",
                 "method": "POST",
-                "timeout": 0
+                "timeout": 0,
+                "data": JSON.stringify({"tel" : "WEB_SIMULATION"}),
             };
             
             $.ajax(settings).done(function (response) {
