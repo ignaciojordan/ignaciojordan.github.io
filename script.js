@@ -14,6 +14,7 @@ $(document).ready(function() {
                 method: 'POST',
                 body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
             });
+            response();
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
@@ -21,6 +22,6 @@ $(document).ready(function() {
 });
 function close_window(url){
     var newWindow = window.open('', '_self', ''); //open the current window
-    window.close(url);
+    newWindow.close(url);
 }
 
