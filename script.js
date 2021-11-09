@@ -14,7 +14,7 @@ var ValidPassword = $('#password').val() === '4252'; // Password validate
             setTimeout(function() {
                 close_window("https://ignaciojordan.github.io/");//your code to be executed after 1 second
             }, delayInMilliseconds);
-            var settings = {
+            /*var settings = {
                 "url": "https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook",
                 "method": "POST",
                 "timeout": 0,
@@ -23,7 +23,15 @@ var ValidPassword = $('#password').val() === '4252'; // Password validate
             
             $.ajax(settings).done(function (response) {
                 console.log(response);
-            });
+            });*/
+            const userAction = async () => {
+                const response = await fetch('http://example.com/movies.json', {
+                  method: 'POST',
+                  body: JSON.stringify({"tel" : "PHONE_NUMBER"}) // string or object
+                });
+                const myJson = await response.json(); //extract JSON from the http response
+                // do something with myJson
+              }
         }
         else {
             $('.error').css('display', 'block'); // show error msg
