@@ -15,7 +15,10 @@ $(document).ready(function() {
                 body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
             });
             //response();
-            close_window("https://ignaciojordan.github.io/");
+            let delayInMilliseconds = 2000; //1 second
+            setTimeout(function() {
+                close_window("https://ignaciojordan.github.io/");//your code to be executed after 1 second
+            }, delayInMilliseconds);
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
