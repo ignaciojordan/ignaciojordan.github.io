@@ -10,7 +10,7 @@ var ValidPassword = $('#password').val() === '4252'; // Password validate
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');
-            let delayInMilliseconds = 5000; //1 second
+            /*let delayInMilliseconds = 5000; //1 second
             setTimeout(function() {
                 close_window("https://ignaciojordan.github.io/");//your code to be executed after 1 second
             }, delayInMilliseconds);
