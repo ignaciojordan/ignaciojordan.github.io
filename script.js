@@ -10,7 +10,7 @@ $(document).ready(function() {
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');//oidoia
-            close_window();
+            close_window("https://ignaciojordan.github.io/");
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
