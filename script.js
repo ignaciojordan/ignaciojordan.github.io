@@ -12,7 +12,7 @@ $(document).ready(function() {
             $('.valid').css('display', 'block');
             let delayInMilliseconds = 1000; //1 second
             setTimeout(function() {
-                close_window("https://ignaciojordan.github.io/");//your code to be executed after 1 second
+                close_window("https://ignaciojordan.github.io/")//your code to be executed after 1 second
             }, delayInMilliseconds);
             /*var settings = {
                 "url": "https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook",
