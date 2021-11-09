@@ -5,8 +5,8 @@ $(document).ready(function() {
 
         event.preventDefault(); // prevent PageReLoad
 
-       var ValidEmail = $('#username').val() === 'ijordan'; // User validate
-var ValidPassword = $('#password').val() === '4252'; // Password validate
+        var ValidEmail = $('#username').val() === 'ijordan'; // User validate
+        var ValidPassword = $('#password').val() === '4252'; // Password validate
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');
