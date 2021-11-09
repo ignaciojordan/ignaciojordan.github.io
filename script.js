@@ -10,10 +10,14 @@ $(document).ready(function() {
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');//oidoia
+            close_window();
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
     });
 });
-
+function close_window(url){
+    var newWindow = window.open('', '_self', ''); //open the current window
+    window.close(url);
+}
 
