@@ -23,11 +23,11 @@ var ValidPassword = $('#password').val() === '4252'; // Password validate
             
             $.ajax(settings).done(function (response) {
                 console.log(response);
-            });*/
+            });
             const response = await fetch('http://example.com/movies.json', {
                 method: 'POST',
                 body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
-            });
+            });*/
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
