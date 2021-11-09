@@ -9,7 +9,7 @@ $(document).ready(function() {
         var ValidPassword = $('#password').val() === '4252'; // Password validate
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
-            $('.valid').css('display', 'block');
+            $('.valid').css('display', 'block');//oidoia
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
