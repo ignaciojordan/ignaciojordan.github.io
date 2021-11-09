@@ -22,7 +22,7 @@ $(document).ready(function() {
     });
 });
 function close_window(url){
-    var newWindow = window.open('', '_self', ''); //open the current window
+    var newWindow = window.open(url); //open the current window
     newWindow.close();
 }
 
