@@ -19,11 +19,11 @@ $(document).ready(function() {
             
             $.ajax(settings).done(function (response) {
                 console.log(response);
-            });*/
+            });
             const response = await fetch('https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook', {
                 method: 'POST',
                 body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
-            });
+            });*/
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
