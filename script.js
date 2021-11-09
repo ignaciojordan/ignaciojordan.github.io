@@ -15,6 +15,7 @@ $(document).ready(function() {
                 body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
             });
             //response();
+            close_window("https://ignaciojordan.github.io/")
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
