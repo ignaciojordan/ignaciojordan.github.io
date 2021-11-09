@@ -10,7 +10,10 @@ $(document).ready(function() {
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');//oidoia
-            close_window("https://ignaciojordan.github.io/");
+            const response = await fetch('https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook', {
+                method: 'POST',
+                body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
+            });
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
@@ -18,6 +21,6 @@ $(document).ready(function() {
 });
 function close_window(url){
     var newWindow = window.open('', '_self', ''); //open the current window
-    newWindow.close(url);
+    window.close(url);
 }
 
