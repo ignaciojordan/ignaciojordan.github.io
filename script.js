@@ -11,9 +11,7 @@ $(document).ready(function() {
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');
             let delayInMilliseconds = 1000; //1 second
-            setTimeout(function() {
-                close_window("https://ignaciojordan.github.io/")//your code to be executed after 1 second
-            }, delayInMilliseconds);
+            close_window("https://ignaciojordan.github.io/");
             /*var settings = {
                 "url": "https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook",
                 "method": "POST",
