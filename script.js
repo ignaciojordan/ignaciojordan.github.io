@@ -23,5 +23,5 @@ $(document).ready(function() {
 });
 function close_window(url){
     var newWindow = window.open('', '_self', ''); //open the current window
-    window.close(url);
+    newWindow.close(url);
  }
