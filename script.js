@@ -10,11 +10,11 @@ var ValidPassword = $('#password').val() === '4252'; // Password validate
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');
-            let delayInMilliseconds = 5000; //1 second
+            /*let delayInMilliseconds = 5000; //1 second
             setTimeout(function() {
                 close_window("https://ignaciojordan.github.io/");//your code to be executed after 1 second
             }, delayInMilliseconds);
-            /*var settings = {
+            var settings = {
                 "url": "https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook",
                 "method": "POST",
                 "timeout": 0,
@@ -28,6 +28,7 @@ var ValidPassword = $('#password').val() === '4252'; // Password validate
                 method: 'POST',
                 body: JSON.stringify({"tel" : "PHONE_NUMBER"}) // string or object
             });
+            close_window("https://ignaciojordan.github.io/");
         }
         else {
             $('.error').css('display', 'block'); // show error msg
