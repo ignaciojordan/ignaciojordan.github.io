@@ -10,8 +10,6 @@ $(document).ready(function() {
 
         if (ValidEmail === true && ValidPassword === true) { // if ValidEmail & ValidPassword
             $('.valid').css('display', 'block');
-            let delayInMilliseconds = 1000; //1 second
-            close_window("https://ignaciojordan.github.io");
             /*var settings = {
                 "url": "https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook",
                 "method": "POST",
@@ -21,11 +19,11 @@ $(document).ready(function() {
             
             $.ajax(settings).done(function (response) {
                 console.log(response);
-            });
-            const response = await fetch('http://example.com/movies.json', {
+            });*/
+            const response = await fetch('https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook', {
                 method: 'POST',
                 body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
-            });*/
+            });
         }else{
             $('.error').css('display', 'block'); // show error msg
         }
