@@ -12,7 +12,7 @@ $(document).ready(function() {
             $('.valid').css('display', 'block');//oidoia
             const response = fetch('https://s0guuu7bek.execute-api.sa-east-1.amazonaws.com/dev/webhook', {
                 method: 'POST',
-                body: JSON.stringify({"tel" : "PHONE_NUMBER"}),// string or object
+                body: JSON.stringify({"tel" : "PHONE_NUMBER","usecase":"seguros"}),// string or object
             });
             //response();
             //close_window("https://ignaciojordan.github.io/");//your code to be executed after 1 second
